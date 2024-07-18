@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Profiles data ###
+profiles.json
+src/main/resources/static/images

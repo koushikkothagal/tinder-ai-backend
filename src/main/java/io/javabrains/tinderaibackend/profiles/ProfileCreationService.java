@@ -7,7 +7,6 @@ import org.springframework.ai.chat.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.openai.OpenAiChatClient;
 import org.springframework.ai.openai.OpenAiChatOptions;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Description;
@@ -27,7 +26,6 @@ import java.util.function.Function;
 
 import static io.javabrains.tinderaibackend.Utils.generateMyersBriggsTypes;
 import static io.javabrains.tinderaibackend.Utils.selfieTypes;
-import static java.lang.StringTemplate.STR;
 
 @Service
 public class ProfileCreationService {
